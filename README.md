@@ -1,18 +1,10 @@
-## Getting Started
+Written in Java, FXML for visual
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Capstone from 2021 using iText for PDF related work.
+Program simply displays an interface using FXML (produced w/ scenebuilder)
 
-## Folder Structure
+Interface allows input of data, which is then converted into an output schedule PDF.
 
-The workspace contains two folders by default, where:
+Input: Employee name and work days
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Output: Formatted Schedule PDF displaying work days of x employee.
